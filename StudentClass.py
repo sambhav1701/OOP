@@ -10,8 +10,6 @@ class Student:
 
     def current_age(self):
         today = date.today()
-        #today = today.split("-")
-        #self.__DOB = self.__DOB.split("-")
         age = today.year - self.__DOB.year
         print(f'({self.__name} is {age} years old')
 
